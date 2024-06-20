@@ -16,11 +16,11 @@ Page {
             ToolButton{ action: actions.about }
             ToolButton{ action: actions.quit }
         }
-        Label{
-            text: content.stackView.currentItem.title
+        Rectangle {
+            width: 100
+            height: 100
+            color: "lightblue"
             anchors.centerIn: parent
-            font.pixelSize: 18
-            font.italic: true
         }
 }
     Column{
